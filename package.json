@@ -1,0 +1,28 @@
+{
+  "name": "project-2-group-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "lint": "npx eslint . --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^0.8.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "git-open": "^2.1.0"
+  }
+}
