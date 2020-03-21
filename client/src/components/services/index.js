@@ -1,43 +1,104 @@
 import React from "react";
 import "./style.css";
-import { Jumbotron as Jumbo } from "react-bootstrap";
-import Background from "../../images/Rectangle115.jpg";
-import styled from "styled-components";
-
-// const Styles = {
-//   width: "100%",
-//   height: "400px",
-//   backgroundImage: `url(${Background})`
-// };
-
-const Styles = styled.div`
-  .jumbotron {
-    background: url(${Background}) no-repeat fixed bottom;
-    background-size: cover;
-    color: #ccc;
-    height: 200px;
-    position: relative;
-    z-index: -2;
-  }
-
-  .overlay {
-    background-color: #000;
-    opacity: 0.8;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -3;
-  }
-`;
 
 export const Services = () => {
   return (
-    <Styles>
-      <Jumbo fluid className="jumbo">
-        <div className="overlay"></div>
-      </Jumbo>
-    </Styles>
+    <div id="services">
+      <header>
+        <div className="row">
+          <div className="col-12">
+            <img id="logo" src="../../images/logo.png" alt="logo"></img>
+            <h6>
+              229 Skokie Valley road. Highland Park, Illinois 888-888-8888
+            </h6>
+          </div>
+        </div>
+      </header>
+      <div className="container" id="container">
+        <div className="row">
+          <div className="col-12">
+            <h2>How Much Is It</h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-1">01.</div>
+          <div className="col-6">
+            <h2 className="nameOfServise">HAIR CUT</h2>
+            <h5 className="includes">includes</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+              veritatis cupiditate. Eaque explicabo vel excepturi assumenda
+              numquam voluptate tempora alias?
+            </p>
+          </div>
+          <div className="col-4">- - - - - - - - - </div>
+          <div className="col-1">$ 20</div>
+        </div>
+        <div className="row">
+          <div className="col-1">02.</div>
+          <div className="col-6">
+            <h2 className="nameOfServise">PACKAGE BORODOBREI</h2>
+            <h5 className="includes">includes</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+              veritatis cupiditate. Eaque explicabo vel excepturi assumenda
+              numquam voluptate tempora alias?
+            </p>
+          </div>
+          <div className="col-4">- - - - - - - - - </div>
+          <div className="col-1">$ 30</div>
+        </div>
+        <div className="row">
+          <div className="col-1">01.</div>
+          <div className="col-6">
+            <h2 className="nameOfServise">PACKAGE NO BORODA JUST USI</h2>
+            <h5 className="includes">includes</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+              veritatis cupiditate. Eaque explicabo vel excepturi assumenda
+              numquam voluptate tempora alias?
+            </p>
+          </div>
+          <div className="col-4">- - - - - - - - - </div>
+          <div className="col-1">$ 45</div>
+        </div>
+        <div className="button">
+          <button id="btn">Reserve Now</button>
+        </div>
+      </div>
+      <footer>
+        <div className="row" id="adres">
+          <div className="col-12">
+            <h5>229 Skokie Valley Road. Highland Park, IL 60035 / suite 24</h5>
+            <br />
+            <div className="phone">Phone: (847) 777-0274</div>
+            <br />
+          </div>
+        </div>
+        <div className="icons">
+          {/* <a href="https://www.facebook.com/bootsnipp">
+            <i
+              id="social-fb"
+              className="fa fa-facebook-square fa-3x social"
+            ></i>
+          </a>
+          <a href="https://twitter.com/bootsnipp">
+            <i id="social-tw" className="fa fa-twitter-square fa-3x social"></i>
+          </a>
+          <a href="https://plus.google.com/+Bootsnipp-page">
+            <i
+              id="social-gp"
+              className="fa fa-google-plus-square fa-3x social"
+            ></i>
+          </a> */}
+          <a href="mailto:#">
+            <i
+              id="social-em"
+              className="fa fa-envelope-square fa-3x social"
+            ></i>
+          </a>
+        </div>
+      </footer>
+    </div>
   );
 };

@@ -1,0 +1,60 @@
+#form {
+  margin: 0;
+  padding: 0;
+  background: url("../../images/Rectangle15.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+#logo {
+  height: 130px;
+  width: 180px;
+  margin: 20px;
+  margin-left: 80px;
+}
+
+#container {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  border: 2px solid rgba(139, 155, 114, 0.671);
+  border-radius: 14px;
+  padding: 10px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 25px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+  border: 2px solid rgba(139, 155, 114, 0.671);
+  border-radius: 14px;
+}
+
+button {
+  background-color: rgb(224, 86, 32);
+  border-radius: 14px;
+  border: none;
+  width: 120px;
+  height: 35px;
+}
+
+.button {
+  text-align: center;
+}
+
+#adres {
+  text-align: center;
+}

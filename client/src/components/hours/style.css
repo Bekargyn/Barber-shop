@@ -9,10 +9,15 @@
   position: relative;
 }
 
-table {
+#table {
   color: white;
   text-align: center;
 }
+
+/* td {
+  text-align: center;
+  vertical-align: middle;
+} */
 
 .col-12 {
   color: white;
@@ -20,4 +25,65 @@ table {
 
 #container {
   text-align: center;
+}
+
+h2 {
+  margin: 25px;
+}
+
+h6 {
+  float: right;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 400px;
+  font-size: 0.9em;
+}
+
+tr {
+  font-size: 20px;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 12px;
+  color: white;
+  margin: 20px;
+}
+
+#phone {
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+  bottom: 0;
+}
+
+#adres {
+  text-align: center;
+}
+
+.icons {
+  float: right;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+a {
+  margin: 20px;
 }
