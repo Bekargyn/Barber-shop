@@ -1,7 +1,19 @@
 @import "./includes/header";
+@import "./includes/footer";
+@import "./includes/services";
+@import "./includes/form";
 
 * {
+  color: white;
+}
+
+body {
   margin: 0;
   padding: 0;
-  color: blue;
+  background-image: url("../../images/Layer33.jpg");
+
+  .nameTag {
+    text-align: center;
+    font-size: 3em;
+  }
 }

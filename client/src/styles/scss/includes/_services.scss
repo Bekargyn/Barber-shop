@@ -1,0 +1,37 @@
+.services {
+  text-align: center;
+  margin: 20px 60px;
+  .col-1 {
+    color: red;
+    font-size: 30px;
+  }
+
+  .col-6 {
+    text-align: left;
+  }
+
+  .nameOfServise {
+    margin: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bolder;
+  }
+
+  .includes {
+    color: rgb(194, 194, 57);
+    margin: 20px 0 10px 0;
+  }
+
+  p {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 2em;
+  }
+
+  button {
+    background-color: rgb(224, 86, 32);
+    border-radius: 20px;
+    border: none;
+    width: 160px;
+    height: 45px;
+  }
+}

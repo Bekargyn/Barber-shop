@@ -1,0 +1,35 @@
+.form {
+  text-align: center;
+
+  input {
+    width: 100%;
+    border: 2px solid rgba(233, 236, 52, 0.671);
+    border-radius: 14px;
+    padding: 10px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    color: white;
+  }
+
+  textarea {
+    width: 100%;
+    margin-top: 25px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: 2px solid rgba(233, 236, 52, 0.671);
+    border-radius: 14px;
+  }
+
+  button {
+    background-color: rgb(224, 86, 32);
+    border-radius: 14px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    margin: 25px;
+  }
+}

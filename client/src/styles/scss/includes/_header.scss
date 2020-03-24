@@ -1,8 +1,20 @@
 .header {
-  //   background-color: Transparent;
-  background: gray;
+  background-color: Transparent;
+  display: flex;
+
+  .logo {
+    padding: 25px 70px;
+    height: 200px;
+    width: 360px;
+  }
 
   a {
     color: white;
+    display: flex;
+    text-justify: flex-end;
+  }
+
+  #menuBtn {
+    justify-content: flex-end;
   }
 }
