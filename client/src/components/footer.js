@@ -3,14 +3,11 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className="footer">
-      <div className="row">
-        <div className="col-12">
-          <h5>229 Skokie Valley Road suite 24. Highland Park, IL 60035 </h5>
-          <br />
-          <div className="phone">Phone: (847) 777-0274</div>
-          <br />
-        </div>
+      <div className="row" id="address">
+        <h5>229 Skokie Valley Road suite 24. Highland Park, IL 60035 </h5>
       </div>
+      <div className="phone">Phone: (847) 777-0274</div>
+
       <div className="icons">
         <a
           target="_blank"

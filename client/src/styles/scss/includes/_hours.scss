@@ -1,0 +1,20 @@
+.hours {
+  text-align: center;
+
+  table {
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 12px;
+    color: white;
+    margin: 20px;
+  }
+}

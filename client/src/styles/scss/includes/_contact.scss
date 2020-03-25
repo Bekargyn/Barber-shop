@@ -1,0 +1,33 @@
+body {
+  position: relative;
+  display: flex;
+}
+
+.contact {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+
+  .btn {
+    position: absolute;
+    top: 65%;
+    left: 46%;
+    color: white;
+    background-color: rgb(192, 65, 14);
+    border-radius: 14px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    box-shadow: darken($color: #000000, $amount: 0);
+  }
+
+  .btn:hover {
+    background-color: black;
+  }
+
+  #layer38 {
+    position: absolute;
+    top: 42%;
+    left: 47%;
+  }
+}

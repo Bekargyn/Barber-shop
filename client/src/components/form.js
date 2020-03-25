@@ -8,11 +8,8 @@ export const Form = () => {
       <Header />
       <div className="comtainer">
         <div className="form">
-          <div className="row">
-            <div className="col-12">
-              <h2>Drop Us A Message</h2>
-            </div>
-          </div>
+          <div className="nameTag">Drop Us A Message</div>
+
           <div className="row">
             <div className="col-6">
               <input
