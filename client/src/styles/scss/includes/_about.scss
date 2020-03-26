@@ -1,0 +1,65 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+
+  .full-name {
+    color: yellow;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    font-weight: bolder;
+  }
+
+  .born {
+    color: yellow;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    font-weight: bolder;
+  }
+
+  .bio {
+    color: yellow;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    font-weight: bolder;
+  }
+
+  .sergey {
+    width: 90px;
+    height: 120px;
+  }
+
+  .nick {
+    width: 90px;
+    height: 120px;
+  }
+}
+
+.buttons {
+  text-align: center;
+
+  .btn1 {
+    background-color: rgb(150, 35, 15);
+    border-radius: 14px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    margin: 25px;
+  }
+
+  .btn2 {
+    background-color: rgb(224, 86, 32);
+    border-radius: 14px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    margin: 25px;
+  }
+  .btn3 {
+    background-color: rgb(150, 35, 15);
+    border-radius: 14px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    margin: 25px;
+  }
+}

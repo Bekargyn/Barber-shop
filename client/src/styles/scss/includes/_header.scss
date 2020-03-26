@@ -1,6 +1,7 @@
 .header {
   background-color: Transparent;
   display: flex;
+  flex-direction: row;
 
   .logo {
     padding: 25px 70px;
@@ -8,13 +9,31 @@
     width: 360px;
   }
 
-  a {
+  .address {
     color: white;
     display: flex;
-    text-justify: flex-end;
+    justify-content: flex-end;
   }
 
-  #menuBtn {
+  .phone {
+    color: white;
+    display: flex;
     justify-content: flex-end;
+  }
+
+  .col-12 {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #btn {
+    justify-content: flex-end;
+    background-color: transparent;
+    width: 100px;
+  }
+
+  @media (min-width: 670px) {
+    flex-direction: column;
   }
 }

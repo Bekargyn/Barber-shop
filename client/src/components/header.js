@@ -4,14 +4,16 @@ export const Header = () => {
   return (
     <div className="header">
       <div className="row">
-        <div className="col-4">
+        <div className="col-lg-4 col-md-4 col-sm-6">
           <img className="logo" src="../../images/logo.png" alt="logo" />
         </div>
-        <div className="col-8">
+        <div className="col-lg-8 col-md-8 col-sm-6">
           <div className="row">
-            <div className="col-12" id="menuBtn">
-              <button className="btn">Button</button>
+            <div className="col-12" id="btn">
+              <button>Button</button>
             </div>
+          </div>
+          <div className="row">
             <div className="col-12">
               <a
                 href="http://maps.google.com/?q=229%20Skokie%20Valley%20Road%20suite%2024.%20Highland%20Park,%20Illinois"

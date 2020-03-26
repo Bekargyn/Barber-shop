@@ -1,10 +1,14 @@
 .footer {
   bottom: 0;
-  position: fixed;
+  flex-direction: row;
+  height: 120px;
+  bottom: 0;
+  left: 50%;
   flex-shrink: 0;
+  align-items: flex-end;
 
-  #address {
-    text-align: center;
+  .address {
+    justify-content: center;
   }
 
   .phone {
@@ -15,5 +19,10 @@
 
   .icons {
     float: right;
+    margin-right: 60px;
+
+    a {
+      margin: 10px;
+    }
   }
 }

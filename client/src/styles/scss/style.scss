@@ -4,6 +4,8 @@
 @import "./includes/form";
 @import "./includes/hours";
 @import "./includes/contact";
+@import "./includes/products";
+@import "./includes/about";
 
 * {
   color: white;
@@ -14,6 +16,7 @@ body {
   padding: 0;
   background-image: url("../../images/Layer33.jpg");
   background-repeat: no-repeat;
+  // justify-content: center;
 
   .nameTag {
     text-align: center;
