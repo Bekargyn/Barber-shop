@@ -6,9 +6,8 @@ export const Contact = () => {
   return (
     <div>
       <Header />
+      <div className="nameTag">Visit Us</div>
       <div className="contact">
-        <div className="nameTag">Visit Us</div>
-
         <div className="row">
           <img
             src="../../images/Layer37.jpg"

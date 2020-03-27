@@ -13,11 +13,13 @@ export const Products = () => {
             <div className="image">
               <img src="../../images/Layer34.png" alt="shampoo" />
             </div>
-            <div className="name">KEUNE</div>
-            <div className="description">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur nobis recusandae repellat dolore itaque velit
-              mollitia deleniti explicabo. Laudantium, voluptatibus?
+            <div className="text">
+              <div className="name">KEUNE</div>
+              <div className="description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur nobis recusandae repellat dolore itaque velit
+                mollitia deleniti explicabo. Laudantium, voluptatibus?
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12">

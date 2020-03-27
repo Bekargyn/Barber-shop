@@ -6,9 +6,8 @@ export const Hours = () => {
   return (
     <div>
       <Header />
+      <div className="nameTag">Operating Hours</div>
       <div className="hours">
-        <div className="nameTag">Operating Hours</div>
-
         <table>
           <tbody>
             <tr>

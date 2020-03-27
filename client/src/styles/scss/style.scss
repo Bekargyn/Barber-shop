@@ -6,6 +6,8 @@
 @import "./includes/contact";
 @import "./includes/products";
 @import "./includes/about";
+@import "./includes/gallery";
+@import "./includes/homepage";
 
 * {
   color: white;
@@ -14,9 +16,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../../images/Layer33.jpg");
+  background-image: url("../../images/bg3.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  // justify-content: center;
 
   .nameTag {
     text-align: center;

@@ -27,7 +27,10 @@ export const About = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
                 veritatis cupiditate. Eaque explicabo vel excepturi assumenda
-                numquam voluptate tempora alias?
+                numquam voluptate tempora alias? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Ipsam, veritatis cupiditate. Eaque
+                explicabo vel excepturi assumenda numquam voluptate tempora
+                alias?
               </p>
             </div>
           </div>
@@ -45,7 +48,10 @@ export const About = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
                 veritatis cupiditate. Eaque explicabo vel excepturi assumenda
-                numquam voluptate tempora alias?
+                numquam voluptate tempora alias? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Ipsam, veritatis cupiditate. Eaque
+                explicabo vel excepturi assumenda numquam voluptate tempora
+                alias?
               </p>
             </div>
           </div>
