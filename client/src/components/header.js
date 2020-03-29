@@ -10,7 +10,8 @@ export const Header = () => {
         <div className="col-lg-8 col-md-8 col-sm-6">
           <div className="row">
             <div className="col-12" id="btn">
-              <button>MENU</button>
+              <i className="fas fa-bars"></i>
+              {/* <button>MENU</button> */}
             </div>
           </div>
           <div className="row">

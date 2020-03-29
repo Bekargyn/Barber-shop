@@ -4,47 +4,45 @@ import { Footer } from "./footer";
 
 export const Form = () => {
   return (
-    <div>
+    <div className="form page">
       <Header />
-      <div className="comtainer">
-        <div className="form">
-          <div className="nameTag">Drop Us A Message</div>
+      <div className="container">
+        <div className="nameTag">Drop Us A Message</div>
 
-          <div className="row">
-            <div className="col-6">
-              <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                placeholder="First Name"
-              />
-            </div>
-            <div className="col-6">
-              <input
-                type="text"
-                id="lastName"
-                name="lastName"
-                placeholder="Last Name"
-              />
-            </div>
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="First Name"
+            />
           </div>
-          <br />
-          <div className="row">
-            <div className="col-6">
-              <input type="text" id="email" name="email" placeholder="Email" />
-            </div>
-            <div className="col-6">
-              <input type="text" id="phone" name="phone" placeholder="Phone" />
-            </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Last Name"
+            />
           </div>
-          <div className="row">
-            <div className="col-12">
-              <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
+        </div>
+        <br />
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <input type="text" id="email" name="email" placeholder="Email" />
           </div>
-          <div className="button">
-            <button id="btn">Send</button>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <input type="text" id="phone" name="phone" placeholder="Phone" />
           </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <div className="button">
+          <button id="btn">Send</button>
         </div>
       </div>
       <Footer />

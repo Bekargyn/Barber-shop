@@ -4,15 +4,15 @@ import { Footer } from "./footer";
 
 export const Gallery = () => {
   return (
-    <div>
+    <div className="gallery page">
       <Header />
       <div className="nameTag">Gallery</div>
-      <div className="gallery">
+      <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 box">
             <img
               className="image"
-              src="https://via.placeholder.com/200"
+              src="https://via.placeholder.com/300"
               alt=""
             />
             <div className="name">ME AND MY FRIEND</div>
@@ -25,7 +25,7 @@ export const Gallery = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 box">
             <img className="image" src="../images/Layer34.png" alt="shampoo" />
             <div className="name">PRODUCT TITLE</div>
             <div className="description">
@@ -37,7 +37,7 @@ export const Gallery = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 box">
             <img className="image" src="../images/Layer34.png" alt="shampoo" />
             <div className="name">PRODUCT TITLE</div>
             <div className="description">
@@ -51,7 +51,7 @@ export const Gallery = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 box">
             <img className="image" src="../images/Layer34.png" alt="shampoo" />
             <div className="name">PRODUCT TITLE</div>
             <div className="description">
@@ -63,7 +63,7 @@ export const Gallery = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 box">
             <img className="image" src="../images/Layer34.png" alt="shampoo" />
             <div className="name">PRODUCT TITLE</div>
             <div className="description">
@@ -75,7 +75,7 @@ export const Gallery = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 box">
             <img className="image" src="../images/Layer34.png" alt="shampoo" />
             <div className="name">PRODUCT TITLE</div>
             <div className="description">

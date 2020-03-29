@@ -1,9 +1,20 @@
 .gallery {
-  text-align: center;
+  background-image: url("../../../images/bg6.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .box {
+    padding: 25px;
+  }
+
+  .description {
+    text-align: left;
+  }
 
   .name {
     color: yellow;
-    margin: 20px;
+    margin: 20px 0;
+    text-align: left;
   }
 
   .btn1 {

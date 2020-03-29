@@ -4,10 +4,10 @@ import { Footer } from "./footer";
 
 export const Products = () => {
   return (
-    <div>
+    <div className="products page">
       <Header />
       <div className="nameTag">Product Line</div>
-      <div className="products">
+      <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="image">

@@ -1,0 +1,10 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .container {
+    max-width: 80%;
+    text-align: center;
+  }
+}

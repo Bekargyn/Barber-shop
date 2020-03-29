@@ -1,4 +1,7 @@
 .form {
+  background-image: url("../../../images/bg2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   text-align: center;
 
   input {
@@ -31,5 +34,9 @@
     width: 120px;
     height: 35px;
     margin: 25px;
+  }
+
+  @media (min-width: 670px) {
+    margin: 15px;
   }
 }

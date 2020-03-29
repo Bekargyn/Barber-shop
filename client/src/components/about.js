@@ -4,19 +4,20 @@ import { Footer } from "./footer";
 
 export const About = () => {
   return (
-    <div>
+    <div className="about page">
       <Header />
       <div className="nameTag">We Are The Barbers</div>
-      <div className="about">
+      <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <div className="flexbox-container">
+            <div className="row">
               <img
                 className="sergey"
                 src="../../images/seregaSide.png"
                 alt=""
               />
-              <h1>- - - - - - -SERGEY</h1>
+              <div className="lines"></div>
+              <h1 id="name-sergey">SERGEY</h1>
             </div>
             <div className="full-name">FULL NAME:</div>
             <div className="name">Sergey Steglik</div>
@@ -35,8 +36,9 @@ export const About = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <div className="flexbox-container">
-              <h1>NICK - - - - - - - </h1>
+            <div className="row">
+              <h1 id="name-nick">NICK</h1>
+              <div className="lines"></div>
               <img className="nick" src="../../images/nickSide.png" alt="" />
             </div>
             <div className="full-name">FULL NAME:</div>
