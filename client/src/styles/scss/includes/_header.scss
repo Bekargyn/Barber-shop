@@ -9,22 +9,26 @@
     width: 360px;
   }
 
-  .address {
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .phone {
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-  }
-
   .col-12 {
-    color: white;
     display: flex;
     justify-content: flex-end;
+
+    a {
+      color: white;
+    }
+
+    .address {
+      display: flex;
+      justify-content: flex-end;
+      margin: 20px;
+    }
+
+    .phone {
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      margin: 20px;
+    }
   }
 
   #btn {
@@ -35,5 +39,9 @@
 
   @media (min-width: 670px) {
     flex-direction: column;
+
+    .address {
+      display: none;
+    }
   }
 }

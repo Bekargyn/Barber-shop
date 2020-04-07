@@ -6,9 +6,8 @@ export const Form = () => {
   return (
     <div className="form page">
       <Header />
+      <div className="nameTag">Drop Us A Message</div>
       <div className="container">
-        <div className="nameTag">Drop Us A Message</div>
-
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
             <input

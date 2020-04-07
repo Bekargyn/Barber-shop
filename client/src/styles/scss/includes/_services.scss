@@ -1,6 +1,10 @@
 .services {
+  background-image: url("../../../images/bg4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   text-align: center;
-  margin: 20px 60px;
+  margin: auto;
+
   .col-1 {
     color: red;
     font-size: 30px;

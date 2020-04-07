@@ -1,12 +1,13 @@
 import React from "react";
 import { Header } from "./header";
+import { Footer } from "./footer";
 
 export const Services = () => {
   return (
-    <div>
+    <div className="services page">
       <Header />
       <div className="nameTag">How Much Is It</div>
-      <div className="services">
+      <div className="container">
         <div className="row">
           <div className="col-1">01.</div>
           <div className="col-6">
@@ -53,6 +54,7 @@ export const Services = () => {
           <button id="btn">Reserve Now</button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
