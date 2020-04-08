@@ -37,10 +37,10 @@
     width: 100px;
   }
 
-  @media (min-width: 670px) {
+  @media (max-width: 820px) {
     flex-direction: column;
 
-    .address {
+    #address {
       display: none;
     }
   }

@@ -3,26 +3,32 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 
+  // .headerinfo {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
   .info {
     text-align: left;
   }
 
   .full-name {
-    color: yellow;
+    color: #ffdb96;
     margin-top: 0.8em;
     margin-bottom: 0.8em;
     font-weight: bolder;
   }
 
   .born {
-    color: yellow;
+    color: #ffdb96;
     margin-top: 0.8em;
     margin-bottom: 0.8em;
     font-weight: bolder;
   }
 
   .bio {
-    color: yellow;
+    color: #ffdb96;
     margin-top: 0.8em;
     margin-bottom: 0.8em;
     font-weight: bolder;
@@ -58,6 +64,7 @@
 }
 
 .buttons {
+  margin-top: 40px;
   text-align: center;
 
   .btn1 {
@@ -84,5 +91,14 @@
     width: 120px;
     height: 35px;
     margin: 25px;
+  }
+
+  @media only screen and (max-width: 670px) {
+    .btn1,
+    .btn2,
+    .btn3 {
+      display: block;
+      justify-content: center;
+    }
   }
 }

@@ -9,15 +9,9 @@
   margin-top: auto;
   background: black;
 
-  .address {
-    justify-content: center;
-    margin-top: 20px;
-  }
-
+  .address,
   .phone {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: none;
   }
 
   .icons {

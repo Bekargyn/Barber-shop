@@ -10,7 +10,7 @@ export const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <div className="row">
+            <div className="row headerinfo">
               <img
                 className="sergey"
                 src="../../images/seregaSide.png"
@@ -38,7 +38,7 @@ export const About = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <div className="row">
+            <div className="row headerinfo">
               <h1 id="name-nick">NICK</h1>
               <div className="lines"></div>
               <img className="nick" src="../../images/nickSide.png" alt="" />
