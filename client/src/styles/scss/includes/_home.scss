@@ -7,6 +7,13 @@
   min-height: 100vh;
   min-width: 100vw;
 
+  .homepage-menu {
+    padding: 20px;
+    position: fixed;
+    right: 5%;
+    z-index: 99;
+  }
+
   // CONTAINER
   .container {
     width: 100%;

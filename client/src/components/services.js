@@ -9,8 +9,8 @@ export const Services = () => {
       <div className="nameTag">How Much Is It</div>
       <div className="container">
         <div className="row">
-          <div className="col-1">01.</div>
-          <div className="col-6">
+          <div className="col-lg-1 col-md-1 col-sm-1 number">01.</div>
+          <div className="col-lg-6 col-md-6 col-sm-10 haircut">
             <h2 className="nameOfServise">HAIR CUT</h2>
             <h6 className="includes">INCLUDES</h6>
             <p>
@@ -19,12 +19,14 @@ export const Services = () => {
               numquam voluptate tempora alias?
             </p>
           </div>
-          <div className="col-4">- - - - - - - - - </div>
-          <div className="col-1">$ 20</div>
+          <div className="col-lg-4 col-md-4 col-sm-0 line">
+            - - - - - - - - -
+          </div>
+          <div className="col-lg-1 col-md-1 col-sm-1 number">$ 20</div>
         </div>
         <div className="row">
-          <div className="col-1">02.</div>
-          <div className="col-6">
+          <div className="col-lg-1 col-md-1 col-sm-1 number">02.</div>
+          <div className="col-lg-6 col-md-6 col-sm-10 haircut">
             <h2 className="nameOfServise">PACKAGE BORODOBREI</h2>
             <h6 className="includes">INCLUDES</h6>
             <p>
@@ -33,12 +35,14 @@ export const Services = () => {
               numquam voluptate tempora alias?
             </p>
           </div>
-          <div className="col-4">- - - - - - - - - </div>
-          <div className="col-1">$ 30</div>
+          <div className="col-lg-4 col-md-4 col-sm-0 line">
+            - - - - - - - - -
+          </div>
+          <div className="col-lg-1 col-md-1 col-sm-1 number">$ 30</div>
         </div>
         <div className="row">
-          <div className="col-1">01.</div>
-          <div className="col-6">
+          <div className="col-lg-1 col-md-1 col-sm-1 number">01.</div>
+          <div className="col-lg-6 col-md-6 col-sm-10 haircut">
             <h2 className="nameOfServise">PACKAGE NO BORODA JUST USI</h2>
             <h6 className="includes">INCLUDES</h6>
             <p>
@@ -47,11 +51,13 @@ export const Services = () => {
               numquam voluptate tempora alias?
             </p>
           </div>
-          <div className="col-4">- - - - - - - - - </div>
-          <div className="col-1">$ 45</div>
+          <div className="col-lg-4 col-md-4 col-sm-0 line">
+            - - - - - - - - -
+          </div>
+          <div className="col-lg-1 col-md-1 col-sm-1 number">$ 45</div>
         </div>
-        <div className="btn">
-          <button id="btn">Reserve Now</button>
+        <div className="reserve">
+          <button className="btn">Reserve Now</button>
         </div>
       </div>
       <Footer />

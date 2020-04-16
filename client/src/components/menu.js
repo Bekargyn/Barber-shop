@@ -3,31 +3,36 @@ import { Link } from "react-router-dom";
 
 export const Menu = () => {
   return (
-    <div className="menu" id="menu">
-      <Link to={"/"} className={"menu-box"}>
-        HOME PAGE
-      </Link>
-      <Link to={"/hours"} className={"menu-box"}>
-        OPERATING HOURS
-      </Link>
-      <Link to={"/about"} className={"menu-box"}>
-        WE ARE THE BARBERS
-      </Link>
-      <Link to={"/contact"} className={"menu-box"}>
-        VISIT US
-      </Link>
-      <Link to={"/services"} className={"menu-box"}>
-        SERVICES
-      </Link>
-      <Link to={"/products"} className={"menu-box"}>
-        PRODUCT LINE
-      </Link>
-      <Link to={"/form"} className={"menu-box"}>
-        DROP US A MESSAGE
-      </Link>
-      <Link to={"/gallery"} className={"menu-box"}>
-        GALLERY
-      </Link>
+    <div className="menu">
+      <div className="dropdown">
+        <button className="dropbtn">MENU </button>
+        <div className="content">
+          <Link to={"/"} className={"links"}>
+            HOME PAGE
+          </Link>
+          <Link to={"/hours"} className={"links"}>
+            OPERATING HOURS
+          </Link>
+          <Link to={"/about"} className={"links"}>
+            WE ARE THE BARBERS
+          </Link>
+          <Link to={"/contact"} className={"links"}>
+            VISIT US
+          </Link>
+          <Link to={"/services"} className={"links"}>
+            SERVICES
+          </Link>
+          <Link to={"/products"} className={"links"}>
+            PRODUCT LINE
+          </Link>
+          <Link to={"/form"} className={"links"}>
+            DROP US A MESSAGE
+          </Link>
+          <Link to={"/gallery"} className={"links"}>
+            GALLERY
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

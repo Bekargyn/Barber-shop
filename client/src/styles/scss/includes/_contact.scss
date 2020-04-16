@@ -1,35 +1,37 @@
-body {
+.contact {
   margin: 0;
-  padding: 0;
   background-image: url("../../../images/bg3.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-}
+  min-height: 100vh;
+  padding: 0;
 
-.contact {
-  display: flex;
-  justify-content: center;
+  .outside {
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
 
-  .btn {
-    position: absolute;
-    top: 65%;
-    left: 46%;
-    color: white;
-    background-color: rgb(192, 65, 14);
-    border-radius: 14px;
-    border: none;
-    width: 120px;
-    height: 35px;
-    box-shadow: darken($color: #000000, $amount: 0);
-  }
+    .btn {
+      position: absolute;
+      top: 65%;
+      left: 46%;
+      color: white;
+      background-color: rgb(192, 65, 14);
+      border-radius: 14px;
+      border: none;
+      width: 120px;
+      height: 35px;
+      box-shadow: darken($color: #000000, $amount: 0);
+    }
 
-  .btn:hover {
-    background-color: black;
-  }
+    .btn:hover {
+      background-color: black;
+    }
 
-  #layer38 {
-    position: absolute;
-    top: 42%;
-    left: 47%;
+    #layer38 {
+      position: absolute;
+      top: 42%;
+      left: 47%;
+    }
   }
 }

@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className="footer">
-      <div className="row address" id="address">
+      <div className="address">
         <h5>229 Skokie Valley Road suite 24. Highland Park, IL 60035 </h5>
       </div>
       <div className="phone">Phone: (847) 777-0274</div>

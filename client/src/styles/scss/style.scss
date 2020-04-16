@@ -10,18 +10,22 @@
 @import "./includes/products";
 @import "./includes/about";
 @import "./includes/gallery";
-@import "./includes/homepage";
 
 * {
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-
   .nameTag {
     text-align: center;
     font-size: 3em;
+  }
+
+  @media (max-width: 670px) {
+    .nameTag {
+      font-size: 2em;
+    }
   }
 }

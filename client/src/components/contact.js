@@ -4,11 +4,11 @@ import { Footer } from "./footer";
 
 export const Contact = () => {
   return (
-    <div>
+    <div className="contact page">
       <Header />
       <div className="nameTag">Visit Us</div>
-      <div className="contact">
-        <div className="row">
+      <div className="container">
+        <div className="row outside">
           <img
             src="../../images/Layer37.jpg"
             alt="location-img"
