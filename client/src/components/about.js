@@ -1,12 +1,31 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Header } from "./header";
 import { Footer } from "./footer";
 
 export const About = () => {
+  const history = useHistory();
+
+  function handleClickLocation() {
+    history.push("/contact");
+  }
+
+  function handleClickForm() {
+    history.push("/form");
+  }
+
+  function handleClickServices() {
+    history.push("/services");
+  }
+
   return (
     <div className="about page">
       <Header />
-      <div className="nameTag">We Are The Barbers</div>
+      <div className="nameTag">
+        <div className="lines"></div>
+        <h1>We Are The Barbers</h1>
+        <div className="lines"></div>
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
@@ -64,9 +83,15 @@ export const About = () => {
         </div>
       </div>
       <div className="buttons">
-        <button className="btn1">Location</button>
-        <button className="btn2">Contact Us</button>
-        <button className="btn3">Services</button>
+        <button type="button" onClick={handleClickLocation} className="btn1">
+          Location
+        </button>
+        <button type="button" onClick={handleClickForm} className="btn2">
+          Contact Us
+        </button>
+        <button type="button" onClick={handleClickServices} className="btn3">
+          Services
+        </button>
       </div>
 
       <Footer />

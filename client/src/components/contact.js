@@ -6,7 +6,11 @@ export const Contact = () => {
   return (
     <div className="contact page">
       <Header />
-      <div className="nameTag">Visit Us</div>
+      <div className="nameTag">
+        <div className="lines"></div>
+        <h1>Visit Us</h1>
+        <div className="lines"></div>
+      </div>
       <div className="container">
         <div className="row outside">
           <img

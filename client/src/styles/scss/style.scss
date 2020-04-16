@@ -19,13 +19,14 @@
 
 body {
   .nameTag {
+    display: flex;
     text-align: center;
-    font-size: 3em;
-  }
 
-  @media (max-width: 670px) {
-    .nameTag {
-      font-size: 2em;
+    .lines {
+      height: 1.1px;
+      background-color: #7f5e32;
+      flex-grow: 1;
+      align-self: center;
     }
   }
 }

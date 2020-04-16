@@ -1,12 +1,31 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Header } from "./header";
 import { Footer } from "./footer";
 
 export const Products = () => {
+  const history = useHistory();
+
+  function handleClickLocation() {
+    history.push("/contact");
+  }
+
+  function handleClickForm() {
+    history.push("/form");
+  }
+
+  function handleClickServices() {
+    history.push("/services");
+  }
+
   return (
     <div className="products page">
       <Header />
-      <div className="nameTag">Product Line</div>
+      <div className="nameTag">
+        <div className="lines"></div>
+        <h1>Product Line</h1>
+        <div className="lines"></div>
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12">
@@ -46,9 +65,15 @@ export const Products = () => {
           </div>
         </div>
         <div className="justify-content center">
-          <button className="btn1">Location</button>
-          <button className="btn2">Contact Us</button>
-          <button className="btn3">Services</button>
+          <button type="button" onClick={handleClickLocation} className="btn1">
+            Location
+          </button>
+          <button type="button" onClick={handleClickForm} className="btn2">
+            Contact Us
+          </button>
+          <button type="button" onClick={handleClickServices} className="btn3">
+            Services
+          </button>
         </div>
       </div>
       <Footer />

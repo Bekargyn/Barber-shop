@@ -1,7 +1,14 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Menu } from "./menu";
 
 export const Home = () => {
+  const history = useHistory();
+
+  function handleClick() {
+    history.push("/about");
+  }
+
   return (
     <div className="homepage">
       <div className="homepage-menu">
@@ -18,7 +25,9 @@ export const Home = () => {
           </div>
           <div>Not Your Head</div>
         </div>
-        <button className="btn">More About Us</button>
+        <button type="button" onClick={handleClick} className="btn">
+          More About Us
+        </button>
       </div>
       <div className="container">
         <div className="row">
@@ -33,7 +42,9 @@ export const Home = () => {
                     <h1>SERGEY</h1>
                   </div>
                 </div>
-                <div className="btn">More</div>
+                <button type="button" onClick={handleClick} className="btn">
+                  More
+                </button>
               </div>
             </div>
             <div className="image">
@@ -49,7 +60,9 @@ export const Home = () => {
               </div>
               <div>Not Your Head</div>
               <div>
-                <button className="btn">More About Us</button>
+                <button type="button" onClick={handleClick} className="btn">
+                  More About Us
+                </button>
               </div>
             </div>
             <div className="bottom">
@@ -118,7 +131,9 @@ export const Home = () => {
                     <h1>NICK</h1>
                   </div>
                 </div>
-                <div className="btn">More</div>
+                <button type="button" onClick={handleClick} className="btn">
+                  More
+                </button>
               </div>
             </div>
             <div className="image">

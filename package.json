@@ -1,10 +1,11 @@
 {
-  "name": "project-2-group-4",
+  "name": "barber-shop",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "npm run lint",
+    "build": "react-scripts build",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "lint": "npx eslint . --quiet"
@@ -14,12 +15,18 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
-    "bootstrap": "^0.8.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "express-session": "^1.16.1",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "bootstrap": "^4.4.1",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

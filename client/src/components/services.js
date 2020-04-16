@@ -1,12 +1,23 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Header } from "./header";
 import { Footer } from "./footer";
 
 export const Services = () => {
+  const history = useHistory();
+
+  function handleClick() {
+    history.push("/form");
+  }
+
   return (
     <div className="services page">
       <Header />
-      <div className="nameTag">How Much Is It</div>
+      <div className="nameTag">
+        <div className="lines"></div>
+        <h1>How Much Is It</h1>
+        <div className="lines"></div>
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-lg-1 col-md-1 col-sm-1 number">01.</div>
@@ -19,9 +30,7 @@ export const Services = () => {
               numquam voluptate tempora alias?
             </p>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-0 line">
-            - - - - - - - - -
-          </div>
+          <div className="col-lg-4 col-md-4 col-sm-0 line"></div>
           <div className="col-lg-1 col-md-1 col-sm-1 number">$ 20</div>
         </div>
         <div className="row">
@@ -35,9 +44,7 @@ export const Services = () => {
               numquam voluptate tempora alias?
             </p>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-0 line">
-            - - - - - - - - -
-          </div>
+          <div className="col-lg-4 col-md-4 col-sm-0 line"></div>
           <div className="col-lg-1 col-md-1 col-sm-1 number">$ 30</div>
         </div>
         <div className="row">
@@ -51,13 +58,13 @@ export const Services = () => {
               numquam voluptate tempora alias?
             </p>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-0 line">
-            - - - - - - - - -
-          </div>
+          <div className="col-lg-4 col-md-4 col-sm-0 line"></div>
           <div className="col-lg-1 col-md-1 col-sm-1 number">$ 45</div>
         </div>
         <div className="reserve">
-          <button className="btn">Reserve Now</button>
+          <button className="reserve-btn" type="button" onClick={handleClick}>
+            Reserve Now
+          </button>
         </div>
       </div>
       <Footer />
