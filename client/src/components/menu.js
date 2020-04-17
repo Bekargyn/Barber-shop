@@ -5,7 +5,7 @@ export const Menu = () => {
   return (
     <div className="menu">
       <div className="dropdown">
-        <button className="dropbtn">MENU </button>
+        <img className="menu-icon" src="../../icons/menu-icon.png" alt="" />
         <div className="content">
           <Link to={"/"} className={"links"}>
             HOME PAGE
