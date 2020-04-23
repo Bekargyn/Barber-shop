@@ -22,6 +22,10 @@ body {
     display: flex;
     text-align: center;
 
+    h1 {
+      padding: 15px;
+    }
+
     .lines {
       height: 1.1px;
       background-color: #7f5e32;

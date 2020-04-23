@@ -45,7 +45,9 @@ export const Form = () => {
           </div>
         </div>
         <div className="button">
-          <button id="btn">Send</button>
+          <button type="button" id="btn">
+            Send
+          </button>
         </div>
       </div>
       <Footer />

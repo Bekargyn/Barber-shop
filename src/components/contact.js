@@ -19,7 +19,17 @@ export const Contact = () => {
             id="layer37"
           ></img>
           <img src="../../images/Layer38.png" alt="check" id="layer38"></img>
-          <button className="btn">Get Direction</button>
+          <div>
+            <form
+              action="http://maps.google.com/?q=229%20Skokie%20Valley%20Road%20suite%2024.%20Highland%20Park,%20Illinois"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn" type="submit" value="Google direction">
+                Get Direction
+              </button>
+            </form>
+          </div>
         </div>
       </div>
       <Footer />

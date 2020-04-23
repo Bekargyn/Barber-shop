@@ -30,7 +30,7 @@ export const Services = () => {
               numquam voluptate tempora alias?
             </p>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-0 line"></div>
+          <div className="col-lg-4 col-md-4 hidden-sm hidden-xs line"></div>
           <div className="col-lg-1 col-md-1 col-sm-1 number">$ 20</div>
         </div>
         <div className="row">
@@ -44,12 +44,12 @@ export const Services = () => {
               numquam voluptate tempora alias?
             </p>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-0 line"></div>
+          <div className="col-lg-4 col-md-4 hidden-sm hidden-xs line"></div>
           <div className="col-lg-1 col-md-1 col-sm-1 number">$ 30</div>
         </div>
         <div className="row">
           <div className="col-lg-1 col-md-1 col-sm-1 number">01.</div>
-          <div className="col-lg-6 col-md-6 col-sm-10 haircut">
+          <div className="col-lg-6 col-md-6 hidden-sm hidden-xs haircut">
             <h2 className="nameOfServise">PACKAGE NO BORODA JUST USI</h2>
             <h6 className="includes">INCLUDES</h6>
             <p>

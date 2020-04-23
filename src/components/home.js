@@ -19,11 +19,11 @@ export const Home = () => {
           <img src="../../images/logo.png" alt="logo" />
         </div>
         <div id="nameTag">
-          <div>Listen To Your</div>
-          <div>
-            <h1>HAIR</h1>
-          </div>
-          <div>Not Your Head</div>
+          <img
+            className="img-fluid"
+            src="http://test.acc4action.com/wp-content/uploads/2018/07/Not-your-Head.png"
+            alt=""
+          />
         </div>
         <button type="button" onClick={handleClick} className="btn">
           More About Us
@@ -46,6 +46,7 @@ export const Home = () => {
                   More
                 </button>
               </div>
+              <div className="fixed"></div>
             </div>
             <div className="image">
               <img id="chair" src="../images/chair_red.png" alt="" />
@@ -54,12 +55,12 @@ export const Home = () => {
           <div className="col-lg-4 col-md-6 col-sm-6 col-xsm-6 middle">
             <img className="logo" src="../../images/logo.png" alt="logo" />
             <div id="nameTag">
-              <div>Listen To Your</div>
-              <div>
-                <h1>HAIR</h1>
-              </div>
-              <div>Not Your Head</div>
-              <div>
+              <img
+                className="img-fluid"
+                src="http://test.acc4action.com/wp-content/uploads/2018/07/Not-your-Head.png"
+                alt=""
+              />
+              <div className="button">
                 <button type="button" onClick={handleClick} className="btn">
                   More About Us
                 </button>
