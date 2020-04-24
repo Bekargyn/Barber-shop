@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./components/home.js";
-// import { Menu } from "./components/menu.js";
 import { Hours } from "./components/hours.js";
 import { Contact } from "./components/contact.js";
 import { Form } from "./components/form.js";
@@ -15,7 +14,6 @@ function App() {
   return (
     <div>
       <Router>
-        {/* <Menu /> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/hours" component={Hours} />

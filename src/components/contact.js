@@ -12,23 +12,29 @@ export const Contact = () => {
         <div className="lines"></div>
       </div>
       <div className="container">
-        <div className="row outside">
+        <div className="content">
           <img
+            className="img-fluid"
             src="../../images/Layer37.jpg"
-            alt="location-img"
-            id="layer37"
+            alt=""
           ></img>
-          <img src="../../images/Layer38.png" alt="check" id="layer38"></img>
-          <div>
-            <form
-              action="http://maps.google.com/?q=229%20Skokie%20Valley%20Road%20suite%2024.%20Highland%20Park,%20Illinois"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="btn" type="submit" value="Google direction">
-                Get Direction
-              </button>
-            </form>
+          <div className="centerBox">
+            <img
+              className="img-fluid check"
+              src="../../images/Layer38.png"
+              alt=""
+            ></img>
+            <div>
+              <form
+                action="http://maps.google.com/?q=229%20Skokie%20Valley%20Road%20suite%2024.%20Highland%20Park,%20Illinois"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn" type="submit" value="Google direction">
+                  Get Direction
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
