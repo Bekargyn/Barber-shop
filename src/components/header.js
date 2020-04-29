@@ -23,15 +23,16 @@ export const Header = () => {
                 229 Skokie Valley road. Highland Park, Illinois
               </a>
             </div>
-            <a
-              href="http://test.acc4action.com/products/tel:847-777-0274"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="phone"
-            >
-              <img src="../../icons/phone.png" alt="" />
-              847-777-0274
-            </a>
+            <div className="phone">
+              <a
+                href="http://test.acc4action.com/products/tel:847-777-0274"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="../../icons/phone.png" alt="" />
+                847-777-0274
+              </a>
+            </div>
           </div>
         </div>
       </div>
