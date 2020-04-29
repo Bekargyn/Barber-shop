@@ -3,6 +3,21 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 
 export const Form = () => {
+  // state = {
+  //   email: {
+  //     firstName: "",
+  //     lastName: "",
+  //     email: "",
+  //     phone: "",
+  //     text: "",
+  //   },
+  // };
+
+  // sendEmail = () => {
+  //   const { email } = this.state;
+  //   fetch(` `);
+  // };
+
   return (
     <div className="form page">
       <Header />

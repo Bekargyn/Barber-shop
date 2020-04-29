@@ -31,12 +31,21 @@ export const Home = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6 col-xsm-6 left">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-xs-6 left">
             <div className="sergey" id="sergey">
-              <img id="front" src="../../images/serega.png" alt="" />
+              <img
+                className="img-fluid"
+                id="front"
+                src="../../images/serega.png"
+                alt=""
+              />
               <div className="side-image">
                 <div className="side-serega">
-                  <img src="../../images/seregaSide.png" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="../../images/seregaSide.png"
+                    alt=""
+                  />
                   <div className="side-name">
                     <span> meet</span>
                     <h1>SERGEY</h1>
@@ -49,10 +58,15 @@ export const Home = () => {
               <div className="fixed"></div>
             </div>
             <div className="image">
-              <img id="chair" src="../images/chair_red.png" alt="" />
+              <img
+                className="img-fluid"
+                id="chair"
+                src="../images/chair_red.png"
+                alt=""
+              />
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 col-xsm-6 middle">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-xs-6 middle">
             <img className="logo" src="../../images/logo.png" alt="logo" />
             <div id="nameTag">
               <img
@@ -121,12 +135,21 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 col-xsm-6 right">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-xs-6 right">
             <div className="nick" id="nick">
-              <img id="front" src="../../images/nick.png" alt="" />
+              <img
+                className="img-fluid"
+                id="front"
+                src="../../images/nick.png"
+                alt=""
+              />
               <div className="side-image">
                 <div className="side-nick">
-                  <img src="../../images/nickSide.png" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="../../images/nickSide.png"
+                    alt=""
+                  />
                   <div className="side-name">
                     <span> meet</span>
                     <h1>NICK</h1>
@@ -139,6 +162,7 @@ export const Home = () => {
             </div>
             <div className="image">
               <img
+                className="img-fluid"
                 id="chair"
                 src="../images/black_chair.png"
                 alt="black_chair"
