@@ -1,6 +1,6 @@
 # Barber-shop
 
-Created Mobile resonsive web-application with React. At the request of customers, the website should display the following pages:
+Created Mobile responsive web-application with React. At the request of customers, the website should display the following pages:
 
 - Homepage
 - Operating Hours
@@ -16,4 +16,6 @@ Created Mobile resonsive web-application with React. At the request of customers
 - React
 - Bootstrap- CSS
 - JavaScript
-- NodeJS
+- SASS
+- Github
+- Heroku
