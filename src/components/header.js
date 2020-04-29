@@ -8,10 +8,10 @@ export const Header = () => {
         <Menu />
       </div>
       <div className="row">
-        <div className="col-lg-4 col-md-4 col-sm-6">
+        <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6">
           <img className="img-fluid" src="../../images/logo.png" alt="logo" />
         </div>
-        <div className="col-lg-8 col-md-8 col-sm-6 ">
+        <div className="col-lg-8 col-md-8 col-sm-6 col-xs-6">
           <div className="info">
             <div className="address">
               <a

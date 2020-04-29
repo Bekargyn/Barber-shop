@@ -11,9 +11,9 @@
   }
 
   .img-fluid {
-    padding: 25px 70px;
-    max-height: 200px;
-    max-width: 360px;
+    padding: 10px;
+    height: auto;
+    max-width: 190px;
   }
   .row {
     width: 100%;
@@ -40,46 +40,12 @@
     }
 
     .phone {
-      color: white;
       display: flex;
       justify-content: flex-end;
       margin: 20px;
 
       img {
         padding-right: 15px;
-      }
-    }
-  }
-
-  @media (max-width: 820px) {
-    flex-direction: column;
-
-    .header {
-      .info {
-        padding: 0;
-
-        .address {
-          display: none;
-        }
-      }
-    }
-  }
-
-  @media only screen and (min-width: 375px) and (max-width: 767px) {
-    .header {
-      .info {
-        padding: 0;
-
-        .address {
-          display: none;
-        }
-      }
-
-      .img-fluid {
-        padding: 15px 5px 20px 15px;
-        max-height: 140px;
-        max-width: 240px;
-        float: left;
       }
     }
   }
