@@ -81,17 +81,17 @@ export const About = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="buttons">
-        <button type="button" onClick={handleClickLocation} className="btn1">
-          Location
-        </button>
-        <button type="button" onClick={handleClickForm} className="btn2">
-          Contact Us
-        </button>
-        <button type="button" onClick={handleClickServices} className="btn3">
-          Services
-        </button>
+        <div className="buttons">
+          <button type="button" onClick={handleClickLocation} className="btn1">
+            Location
+          </button>
+          <button type="button" onClick={handleClickForm} className="btn2">
+            Contact Us
+          </button>
+          <button type="button" onClick={handleClickServices} className="btn3">
+            Services
+          </button>
+        </div>
       </div>
 
       <Footer />

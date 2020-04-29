@@ -4,13 +4,14 @@
   flex-direction: column;
   align-items: flex-end;
   margin-top: auto;
-  background: #000;
-  max-height: 120px;
+  background: transparent;
+  text-align: center;
 
   .address {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    padding: 10px;
   }
 
   .phone {
@@ -21,22 +22,10 @@
 
   .icons {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 60px;
+    justify-content: center;
 
     a {
       margin: 10px;
-    }
-  }
-
-  @media (max-width: 670px) {
-    .footer {
-      background-color: transparent;
-
-      .address {
-        padding: 15px 15px 15px 25px;
-        font-size: 20px;
-      }
     }
   }
 }
