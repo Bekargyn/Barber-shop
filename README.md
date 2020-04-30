@@ -11,11 +11,23 @@ Created Mobile responsive web-application with React. At the request of customer
 - Form (User able to sent a message, set-up an appointment)
 - Gallery
 
+## Links to:
+
+- GitHub (code): https://github.com/Bekargyn/Barber-shop
+- Heroku (deployed): https://barber-shop-il.herokuapp.com/services
+
+## Deployed version looks like =>
+
+<img src="/public/images/deployed2.png" width="100%" height="auto">
+<img src="/public/images/deployed.png" width="100%" height="auto">
+
 ## Technology
 
 - React
 - Bootstrap- CSS
 - JavaScript
 - SASS
+- NodeJS
+- Nodemailer
 - Github
 - Heroku
