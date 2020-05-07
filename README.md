@@ -14,7 +14,7 @@ Created Mobile responsive web-application with React. At the request of customer
 ## Links to:
 
 - GitHub (code): https://github.com/Bekargyn/Barber-shop
-- Heroku (deployed): https://barber-shop-il.herokuapp.com/services
+- Heroku (deployed): https://barber-shop-il.herokuapp.com/
 
 ## Deployed version looks like =>
 
