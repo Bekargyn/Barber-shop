@@ -15,6 +15,10 @@
     overflow: hidden;
     outline: none;
     color: white;
+
+    &::placeholder {
+      color: #fff;
+    }
   }
 
   textarea {
