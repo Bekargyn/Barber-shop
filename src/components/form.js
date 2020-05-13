@@ -3,20 +3,10 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 
 export const Form = () => {
-  // state = {
-  //   email: {
-  //     firstName: "",
-  //     lastName: "",
-  //     email: "",
-  //     phone: "",
-  //     text: "",
-  //   },
-  // };
-
-  // sendEmail = () => {
-  //   const { email } = this.state;
-  //   fetch(` `);
-  // };
+  function sendMessage(e) {
+    e.preventDefault();
+    console.log("click click");
+  }
 
   return (
     <div className="form page">
@@ -59,7 +49,7 @@ export const Form = () => {
           </div>
         </div>
         <div className="button">
-          <button type="button" id="btn">
+          <button type="submit" id="btn" onClick={sendMessage}>
             Send
           </button>
         </div>
