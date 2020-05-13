@@ -5,16 +5,21 @@
 
   .box {
     padding: 25px;
-  }
 
-  .description {
-    text-align: left;
-  }
+    .name {
+      color: yellow;
+      margin: 20px 0;
+      text-align: left;
+      font-weight: bold;
+    }
 
-  .name {
-    color: yellow;
-    margin: 20px 0;
-    text-align: left;
+    .title {
+      font-weight: bold;
+    }
+
+    .description {
+      text-align: left;
+    }
   }
 
   .btn1 {
@@ -24,6 +29,8 @@
     width: 120px;
     height: 35px;
     margin: 25px;
+    text-shadow: 3px 3px 3px #000;
+    font-style: italic;
   }
 
   .btn2 {
@@ -33,7 +40,10 @@
     width: 120px;
     height: 35px;
     margin: 25px;
+    text-shadow: 3px 3px 3px #000;
+    font-style: italic;
   }
+
   .btn3 {
     background-color: rgb(150, 35, 15);
     border-radius: 14px;
@@ -41,5 +51,7 @@
     width: 120px;
     height: 35px;
     margin: 25px;
+    text-shadow: 3px 3px 3px #000;
+    font-style: italic;
   }
 }
