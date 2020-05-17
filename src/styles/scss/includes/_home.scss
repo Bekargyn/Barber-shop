@@ -22,6 +22,14 @@
     margin: auto;
     padding: 25px 0 0 0;
 
+    .left,
+    .middle,
+    .right {
+      &:hover {
+        z-index: 10;
+      }
+    }
+
     .row {
       margin-top: 30px;
     }
@@ -43,6 +51,23 @@
     .nick {
       position: relative;
       text-align: center;
+
+      + .fixed {
+        display: none;
+      }
+
+      &:hover {
+        z-index: 10;
+        + .fixed {
+          display: block;
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          background: rgba(24, 23, 24, 0.8);
+          top: 0;
+          left: 0;
+        }
+      }
 
       #front {
         opacity: 1;

@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Menu = () => {
+  const [openMenu, setOpenMenu] = useState(0);
+
+  function toggleNav(e) {
+    e.preventDefault();
+    setOpenMenu(!openMenu);
+  }
+
   return (
     <div className="menu">
-      <div className="dropdown">
-        <img className="menu-icon" src="../../icons/menu-icon.png" alt="" />
-        <div className="content">
+      <span id="open-menu" onClick={toggleNav}>
+        &#9776;
+      </span>
+      <div className={openMenu ? "overlay toggled" : "overlay"} id="overlay">
+        <span className="closebtn" onClick={toggleNav}>
+          &times;
+        </span>
+        <div className="overlay-content">
           <Link to={"/"} className={"links"}>
             HOME PAGE
           </Link>

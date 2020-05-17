@@ -32,7 +32,7 @@ export const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6 col-xs-6 left">
-            <div className="sergey" id="sergey">
+            <div className="sergey guy" id="sergey">
               <img
                 className="img-fluid"
                 id="front"
@@ -55,8 +55,8 @@ export const Home = () => {
                   More
                 </button>
               </div>
-              <div className="fixed"></div>
             </div>
+            <div className="fixed"></div>
             <div className="image">
               <img
                 className="img-fluid"
@@ -136,7 +136,7 @@ export const Home = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-6 col-xs-6 right">
-            <div className="nick" id="nick">
+            <div className="nick guy" id="nick">
               <img
                 className="img-fluid"
                 id="front"
@@ -160,6 +160,7 @@ export const Home = () => {
                 </button>
               </div>
             </div>
+            <div className="fixed"></div>
             <div className="image">
               <img
                 className="img-fluid"
