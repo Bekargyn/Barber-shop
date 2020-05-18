@@ -14,7 +14,7 @@ export const Menu = () => {
       <span id="open-menu" onClick={toggleNav}>
         &#9776;
       </span>
-      <div className={openMenu ? "overlay toggled" : "overlay"} id="overlay">
+      <div className={openMenu ? "overlay toggled" : "overlay"}>
         <span className="closebtn" onClick={toggleNav}>
           &times;
         </span>
